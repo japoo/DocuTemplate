@@ -61,15 +61,16 @@ div.note {
   padding: var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal);
   background: #112e4f;
   color: #f5f6f7;
-  border: none;
+  /*border: none;*/
+  border-left-color: #0094d9;
   font-size: 1rem;
 }
 div.note > span.note__title {
   display: inline-block;
   color: #6a737d;
   font-weight: bold;
-  /*font-size: 0.88rem;*/
-  /*margin-bottom: 0.50rem;*/
+  font-size: 0.88rem;
+  margin-bottom: 0.50rem;
   text-transform: uppercase;
 }
 
@@ -117,7 +118,7 @@ div.note.note_restriction {
 div.note,
 div.note * {
   color: #6a737d;
-  border-left-color: #0094d9;
+  
 }
 
 /* Fix issues with background colors */
