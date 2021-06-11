@@ -77,7 +77,7 @@ div.note > span.note__title {
 div.note.note_note,
 div.note.note_trouble {
   /* background: #003749; */
-  border-left-color: var(--ifm-color-primary);
+  border-left-color: #0094d9;
   background-color: #f7f7f7;
 }
 
@@ -117,12 +117,12 @@ div.note.note_restriction {
 /* Fix issues with colors of note children */
 div.note,
 div.note * {
-  color: #f5f6f7;
+  color: #6a737d;
 }
 
 /* Fix issues with background colors */
 div.note code.ph.codeph,
 div.note div.pre.codeblock {
-  color: #f5f6f7;
+  color: #6a737d;
   background-color: rgb(72, 77, 91);
 }
