@@ -9,6 +9,71 @@
 
 @import "modules/notes.css";
 
+.hero__title {
+  color: inherit;
+}
+
+.markdown>h2 {
+  border-top: 1px solid #efefef;
+  padding-top: 15px;
+}
+
+.markdown p img {
+  max-width: 80%;
+  border: 1px solid gray;
+}
+
+.markdown p em img {
+  border: none;
+}
+
+.contents ul > li {
+  font-size: 12px;
+}
+
+blockquote {
+  border-left-color: var(--ifm-color-primary);
+  background-color: #f7f7f7;
+}
+
+.menu .menu__link {
+  border-radius: 0;
+}
+
+.menu .menu__list .menu__list {
+  border-left: 1px solid #eee;
+}
+
+.menu .menu__list-item .menu__list .menu__list-item {
+  font-size: 14px;
+}
+
+.menu .menu__list-item .menu__list .menu__list-item .menu__list .menu__list-item {
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 26px;
+}
+
+.table-of-contents li ul li {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.table-of-contents li ul a.table-of-contents__link {
+  font-size: 12px;
+}
+
+.flx-green {
+  color: #00b852;
+}
+.flx-blue {
+  color: #0094d9;
+}
+.flx-gray {
+  color: #676568;
+}
+
 :root {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
