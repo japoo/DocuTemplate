@@ -12,14 +12,14 @@ module.exports = {
       "title": "Masterworks Online Help",
       "logo": {
         "alt": "Masterworks Online Help",
-        "src": "img/logo.svg"
+        "src": "img/MWlogo.png"
       },
       "items": []
     },
     "footer": {
       "style": "dark",
       "links": [],
-      "copyright": "Copyright © 2021."
+      "copyright": "Copyright © 2021 Aurigo."
     }
   },
   "presets": [
