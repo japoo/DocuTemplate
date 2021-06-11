@@ -12,7 +12,7 @@ module.exports = {
       "title": "Masterworks Online Help",
       "logo": {
         "alt": "Masterworks Online Help",
-        "src": "img/MWlogo.png"
+        "src": "img/MW Cloud Logo.png"
       },
       "items": []
     },
