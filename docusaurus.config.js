@@ -4,7 +4,7 @@ module.exports = {
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
-  "favicon": " ",
+  "favicon": "img/icon.png",
   "organizationName": "Aurigo",
   "projectName": "Masterworks Online Help",
   "themeConfig": {
